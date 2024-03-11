@@ -43,7 +43,7 @@ Training should take roughly one hour on a GPU per model for the JSB dataset.
 ## Pretrained checkpoint.
 
 A pretrained network can be found here:
-https://ai-guru.s3.eu-central-1.amazonaws.com/mmm-jsb/mmm_jsb_checkpoints.zip
+[https://ai-guru.s3.eu-central-1.amazonaws.com/mmm-jsb/mmm_jsb_checkpoints.zip](https://huggingface.co/TristanBehrens/js-fakes-4bars)
 
 ## What is missing?
 
