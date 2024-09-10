@@ -93,9 +93,10 @@ def generate(model, tokenizer, token_sequence):
 
     generated_sequence = model.generate(
         input_ids,
-        #min_length=200,
+        min_length=600,
         max_length=1000,
-        temperature=0.9,
+        do_sample=True,
+        temperature=0.6,
         #pad_token_id=tokenizer.token_to_id("[PAD]"),
         #bos_token_id=tokenizer.token_to_id("PIECE_START"),
         #eos_token_id=tokenizer.token_to_id("PIECE_END"),

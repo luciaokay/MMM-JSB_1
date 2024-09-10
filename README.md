@@ -54,3 +54,8 @@ A pretrained network can be found here:
 ## License.
 
 Released under the Apache-2.0 License.
+
+
+## RICORDARSI
+
+export DISABLE_MLFLOW_INTEGRATION=TRUE
