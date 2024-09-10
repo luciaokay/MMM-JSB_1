@@ -1,0 +1,8 @@
+transformers
+tokenizers
+torch
+music21
+note_seq
+accelerate
+mlflow
+protobuf==3.20.*
