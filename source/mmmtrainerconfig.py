@@ -27,14 +27,14 @@ class MMMTrainerBaseConfig:
         tokenizer_path="",
         dataset_train_files=[],
         dataset_validate_files=[],
-        pad_length=700,
+        pad_length=6000,
         shuffle_buffer_size=10000,
         batch_size=8,
         epochs=60,
         n_head=8,
         n_layer=6,
         n_embd=512,
-        n_positions=1024,
+        n_positions=8024,
         n_ctx=1024
         ):
 
